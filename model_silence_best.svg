@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#eef2ff" />
+    </linearGradient>
+    <style>
+      .title { font: 600 22px Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 12px Helvetica, Arial, sans-serif; fill: #475569; }
+      .layer-box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+      .layer-title { font: 600 16px Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .layer-info { font: 12px Helvetica, Arial, sans-serif; fill: #475569; }
+      .node { stroke: #0f172a; stroke-width: 1; }
+      .node-input { fill: #1d4ed8; }
+      .node-hidden { fill: #2563eb; }
+      .node-output { fill: #16a34a; }
+      .connection { stroke: #94a3b8; stroke-width: 1; opacity: 0.35; }
+      .ellipsis { font: 18px Helvetica, Arial, sans-serif; fill: #64748b; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)" />
+  <text x="600" y="40" text-anchor="middle" class="title">MLP Architecture</text>
+  <text x="600" y="65" text-anchor="middle" class="subtitle">layer_sizes=35 257 5</text>
+
+  <g id="connections">
+    <line x1="260" y1="210" x2="600" y2="210" class="connection" />
+    <line x1="260" y1="210" x2="600" y2="251" class="connection" />
+    <line x1="260" y1="210" x2="600" y2="292" class="connection" />
+    <line x1="260" y1="210" x2="600" y2="334" class="connection" />
+    <line x1="260" y1="251" x2="600" y2="210" class="connection" />
+    <line x1="260" y1="251" x2="600" y2="251" class="connection" />
+    <line x1="260" y1="251" x2="600" y2="292" class="connection" />
+    <line x1="260" y1="251" x2="600" y2="334" class="connection" />
+    <line x1="260" y1="292" x2="600" y2="210" class="connection" />
+    <line x1="260" y1="292" x2="600" y2="251" class="connection" />
+    <line x1="260" y1="292" x2="600" y2="292" class="connection" />
+    <line x1="260" y1="292" x2="600" y2="334" class="connection" />
+    <line x1="260" y1="334" x2="600" y2="210" class="connection" />
+    <line x1="260" y1="334" x2="600" y2="251" class="connection" />
+    <line x1="260" y1="334" x2="600" y2="292" class="connection" />
+    <line x1="260" y1="334" x2="600" y2="334" class="connection" />
+    <line x1="600" y1="210" x2="940" y2="210" class="connection" />
+    <line x1="600" y1="210" x2="940" y2="282" class="connection" />
+    <line x1="600" y1="210" x2="940" y2="355" class="connection" />
+    <line x1="600" y1="210" x2="940" y2="427" class="connection" />
+    <line x1="600" y1="251" x2="940" y2="210" class="connection" />
+    <line x1="600" y1="251" x2="940" y2="282" class="connection" />
+    <line x1="600" y1="251" x2="940" y2="355" class="connection" />
+    <line x1="600" y1="251" x2="940" y2="427" class="connection" />
+    <line x1="600" y1="292" x2="940" y2="210" class="connection" />
+    <line x1="600" y1="292" x2="940" y2="282" class="connection" />
+    <line x1="600" y1="292" x2="940" y2="355" class="connection" />
+    <line x1="600" y1="292" x2="940" y2="427" class="connection" />
+    <line x1="600" y1="334" x2="940" y2="210" class="connection" />
+    <line x1="600" y1="334" x2="940" y2="282" class="connection" />
+    <line x1="600" y1="334" x2="940" y2="355" class="connection" />
+    <line x1="600" y1="334" x2="940" y2="427" class="connection" />
+  </g>
+
+  <g id="layer-0">
+    <rect x="150" y="140" width="220" height="420" rx="16" class="layer-box" />
+    <text x="260" y="170" text-anchor="middle" class="layer-title">Input</text>
+    <text x="260" y="192" text-anchor="middle" class="layer-info">35 neurons (incl bias)</text>
+    <circle cx="260" cy="210" r="10" class="node node-input" />
+    <circle cx="260" cy="251" r="10" class="node node-input" />
+    <circle cx="260" cy="292" r="10" class="node node-input" />
+    <circle cx="260" cy="334" r="10" class="node node-input" />
+    <circle cx="260" cy="375" r="10" class="node node-input" />
+    <circle cx="260" cy="417" r="10" class="node node-input" />
+    <circle cx="260" cy="458" r="10" class="node node-input" />
+    <circle cx="260" cy="500" r="10" class="node node-input" />
+    <text x="260" y="540" text-anchor="middle" class="ellipsis">...</text>
+  </g>
+
+  <g id="layer-1">
+    <rect x="490" y="140" width="220" height="420" rx="16" class="layer-box" />
+    <text x="600" y="170" text-anchor="middle" class="layer-title">Hidden</text>
+    <text x="600" y="192" text-anchor="middle" class="layer-info">257 neurons (incl bias)</text>
+    <circle cx="600" cy="210" r="10" class="node node-hidden" />
+    <circle cx="600" cy="251" r="10" class="node node-hidden" />
+    <circle cx="600" cy="292" r="10" class="node node-hidden" />
+    <circle cx="600" cy="334" r="10" class="node node-hidden" />
+    <circle cx="600" cy="375" r="10" class="node node-hidden" />
+    <circle cx="600" cy="417" r="10" class="node node-hidden" />
+    <circle cx="600" cy="458" r="10" class="node node-hidden" />
+    <circle cx="600" cy="500" r="10" class="node node-hidden" />
+    <text x="600" y="540" text-anchor="middle" class="ellipsis">...</text>
+  </g>
+
+  <g id="layer-2">
+    <rect x="830" y="140" width="220" height="420" rx="16" class="layer-box" />
+    <text x="940" y="170" text-anchor="middle" class="layer-title">Output</text>
+    <text x="940" y="192" text-anchor="middle" class="layer-info">5 neurons</text>
+    <circle cx="940" cy="210" r="10" class="node node-output" />
+    <circle cx="940" cy="282" r="10" class="node node-output" />
+    <circle cx="940" cy="355" r="10" class="node node-output" />
+    <circle cx="940" cy="427" r="10" class="node node-output" />
+    <circle cx="940" cy="500" r="10" class="node node-output" />
+  </g>
+
+  <text x="600" y="640" text-anchor="middle" class="subtitle">Fully connected layers (weights omitted)</text>
+</svg>

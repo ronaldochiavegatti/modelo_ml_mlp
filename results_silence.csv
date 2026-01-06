@@ -1,0 +1,16 @@
+metric,accuracy,0.330579
+metric,precision_macro,0.310865
+metric,recall_macro,0.309640
+metric,precision_laringite,0.417910
+metric,recall_laringite,0.455285
+metric,precision_disfonia_funcional,0.297030
+metric,recall_disfonia_funcional,0.303030
+metric,precision_disfonia_psicogenica,0.273973
+metric,recall_disfonia_psicogenica,0.246914
+metric,precision_edema_de_reinke,0.254545
+metric,recall_edema_de_reinke,0.233333
+confusion,actual/pred,laringite,disfonia_funcional,disfonia_psicogenica,edema_de_reinke
+confusion,laringite,56,29,24,14
+confusion,disfonia_funcional,36,30,18,15
+confusion,disfonia_psicogenica,21,28,20,12
+confusion,edema_de_reinke,21,14,11,14

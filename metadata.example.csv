@@ -1,0 +1,9 @@
+id,classe,filepath,sexo,idade
+1304_107_a,laringite,svd_wav/laringite/1304/107_a.wav,m,60
+1318_139_i,laringite,svd_wav/laringite/1318/139_i.wav,m,18
+1339_350_u,disfonia_funcional,svd_wav/disfonia_funcional/1339/350_u.wav,f,52
+1340_351_a,disfonia_funcional,svd_wav/disfonia_funcional/1340/351_a.wav,f,58
+1402_812_i,disfonia_psicogenica,svd_wav/disfonia_psicogenica/1402/812_i.wav,f,36
+1410_829_u,disfonia_psicogenica,svd_wav/disfonia_psicogenica/1410/829_u.wav,m,41
+1501_910_a,edema_de_reinke,svd_wav/edema_de_reinke/1501/910_a.wav,f,49
+1520_955_u,edema_de_reinke,svd_wav/edema_de_reinke/1520/955_u.wav,f,57
